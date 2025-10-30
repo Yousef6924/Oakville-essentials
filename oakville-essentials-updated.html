@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oakville Essentials — Minimalist Streetwear</title>
+  <meta name="description" content="Oakville Essentials is a Canadian minimalist streetwear brand preparing its first collection. We source premium blanks for printing and customization." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0f1115; --card:#151823; --text:#e9eef5; --muted:#a9b4c0; --accent:#9ad0ff; --border:#232838; }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,Segoe UI,Arial,sans-serif}
+    a{color:var(--text);text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 0}
+    .nav .brand{font-weight:800;letter-spacing:.5px}
+    .nav .links{display:flex;gap:18px}
+    .btn{display:inline-block;padding:12px 18px;border-radius:12px;border:1px solid var(--border);background:linear-gradient(180deg,#1b2030,#141926);color:var(--text);font-weight:600;transition:.2s}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(0,0,0,.25)}
+    .hero{padding:64px 0}
+    .hero-card{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;background:linear-gradient(180deg,#151a28,#101522);border:1px solid var(--border);border-radius:20px;padding:28px}
+    .hero h1{font-size:40px;line-height:1.1;margin:8px 0 12px}
+    .hero p{color:var(--muted);font-size:18px}
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+    .badge{border:1px solid var(--border);background:#121623;padding:8px 12px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .mock{aspect-ratio:4/3;border:1px dashed #2b3145;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#8ba2c7;background:repeating-linear-gradient( 45deg, #111625, #111625 12px, #0f1422 12px, #0f1422 24px );font-weight:600}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{border:1px solid var(--border);background:var(--card);border-radius:16px;padding:18px}
+    .card h3{margin:6px 0 8px}
+    .row{display:flex;gap:16px;align-items:center}
+    .pill{font-size:12px;color:var(--muted);border:1px solid var(--border);padding:6px 10px;border-radius:999px}
+    .section{padding:48px 0}
+    .section h2{font-size:28px;margin:0 0 8px}
+    .muted{color:var(--muted)}
+    .footer{padding:36px 0;color:var(--muted);border-top:1px solid var(--border);margin-top:32px}
+    input,textarea{width:100%;background:#0e1220;border:1px solid var(--border);color:var(--text);padding:12px;border-radius:12px}
+    form .row{align-items:stretch}
+    .note{font-size:12px;color:#95a5bb}
+    .accent{color:var(--accent)}
+    .social{display:flex;gap:14px;align-items:center;margin-top:8px}
+    .social a{font-size:14px;opacity:.9}
+    @media (max-width:900px){.hero-card{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}}
+    @media (max-width:620px){.grid{grid-template-columns:1fr}.hero h1{font-size:32px}}
+  </style>
+</head>
+<body>
+  <header class="container nav" aria-label="Main">
+    <div class="brand">Oakville Essentials</div>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="#wholesale">Wholesale Info</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="home">
+      <div class="hero-card">
+        <div>
+          <div class="badges">
+            <span class="badge">Designed in Canada</span>
+            <span class="badge">Small Batch</span>
+            <span class="badge">Premium Blanks</span>
+          </div>
+          <h1>Minimalist streetwear for everyday wear.</h1>
+          <p>We are a small Canadian clothing brand preparing our first drop. We source premium blanks for printing and customization, focusing on timeless fits and durable fabrics.</p>
+          <div style="margin-top:18px;display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn" href="#products">View Sample Pieces</a>
+            <a class="btn" href="#contact">Join Early List</a>
+          </div>
+          <div class="social">
+            <a href="https://instagram.com/oakville.essentials" aria-label="Instagram (placeholder)" target="_blank" rel="noopener">Instagram: @oakville.essentials</a>
+            <span class="muted">•</span>
+            <a href="mailto:oakvilleessentials@gmail.com" aria-label="Email">oakvilleessentials@gmail.com</a>
+          </div>
+        </div>
+        <div class="mock" aria-label="Mockup placeholder">Upload your hoodie/tee mockups here</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2>About Us</h2>
+      <p class="muted">Oakville Essentials creates everyday staples with a clean aesthetic. Our first collection focuses on heavyweight hoodies and tees suitable for screen printing and embroidery. We prioritize reliable cuts, soft hand-feel, and consistent dye lots for professional customization.</p>
+      <div class="row" style="margin-top:14px;flex-wrap:wrap">
+        <span class="pill">Screen‑print Ready</span>
+        <span class="pill">Embroidery‑Friendly</span>
+        <span class="pill">Consistent Sizing</span>
+        <span class="pill">Canadian Brand</span>
+      </div>
+    </section>
+
+    <section class="section" id="products">
+      <h2>Sample Pieces</h2>
+      <p class="muted">These are placeholders to showcase our intended product range. Replace with your own mockups or photos.</p>
+      <div class="grid" style="margin-top:14px">
+        <div class="card">
+          <div class="mock" style="aspect-ratio:4/5" aria-label="Hoodie mockup">Hoodie Mockup</div>
+          <h3>Heavyweight Hoodie</h3>
+          <p class="muted">Boxy fit, 400gsm class, fleece interior. Ideal for front and back prints.</p>
+        </div>
+        <div class="card">
+          <div class="mock" style="aspect-ratio:4/5" aria-label="Tee mockup">T‑Shirt Mockup</div>
+          <h3>Classic Tee</h3>
+          <p class="muted">Mid‑weight jersey with tight neck rib. Works for DTG or screen print.</p>
+        </div>
+        <div class="card">
+          <div class="mock" style="aspect-ratio:4/5" aria-label="Crewneck mockup">Crewneck Mockup</div>
+          <h3>Fleece Crewneck</h3>
+          <p class="muted">Structured shoulder, clean hem. Embroidery‑friendly loopback.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="wholesale">
+      <h2>Wholesale / Blanks</h2>
+      <p class="muted">We source premium blanks suitable for embellishment and will be printing in small batches for our first release. If you are a decorator or retailer interested in collaborating, reach out below.</p>
+      <ul>
+        <li>Use‑case: <span class="accent">screen printing, DTG, and embroidery</span></li>
+        <li>Focus: heavyweight fleece and tight‑rib tees</li>
+        <li>MOQ: small runs for early access list</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Get in Touch</h2>
+      <p class="muted">Join the early list or ask about collaborations. We aim to reply within 1–2 business days.</p>
+      <form onsubmit="event.preventDefault(); alert('Thanks! Your message has been noted.');" aria-label="Contact form">
+        <div class="row" style="flex-wrap:wrap">
+          <input aria-label="Your name" placeholder="Your name" required />
+          <input aria-label="Email" type="email" placeholder="Email" required />
+        </div>
+        <textarea style="margin-top:12px" rows="5" aria-label="Message" placeholder="Tell us what you’re looking for…"></textarea>
+        <div style="margin-top:12px"><button class="btn" type="submit">Send</button></div>
+        <p class="note" style="margin-top:10px">Or email: <span class="accent">oakvilleessentials@gmail.com</span></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div>&copy; <span id="year"></span> Oakville Essentials — Minimalist Streetwear</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
